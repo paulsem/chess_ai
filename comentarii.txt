@@ -1,0 +1,18 @@
+
+
+Jucatorul ?X ajunge într-o situa?ie foarte favorabila prin capturarea piesei ?Y, de?i o mutarea mai buna 
+ar fi fost piesa ?Z în pozi?ia ?K
+
+Jucatorul ?X ajunge într-o situa?ie foarte favorabila prin capturarea piesei ?Y, o alta mutare mai buna 
+nu a fost gasita
+
+Jucatorul ?X ajunge într-o situa?ie foarte favorabila ?Y, de?i o mutarea mai buna ar fi fost piesa ?Z 
+în pozi?ia ?K
+
+Jucatorul ?X ajunge într-o situa?ie foarte favorabila ?Y, o alta mutare mai buna nu a fost gasita
+
+
+
+Jucatorul ?X ajunge într-o situa?ie nefavorabila decoarece adversarul a mutat in favoaresa sa
+
+Jucatorul ?X ajunge într-o situa?ie nefavorabila prin pierderea piesei ?Y 
