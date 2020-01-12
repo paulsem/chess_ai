@@ -1495,7 +1495,7 @@ class EasyChessGui:
 
                             print(aux)
                             print('with score')
-                            print(int(t))
+                            print(t)
                             engine.quit()
                             print('-------------------')
                             print('-------------------')
