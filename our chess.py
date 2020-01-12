@@ -1463,20 +1463,20 @@ class EasyChessGui:
                             board = chess.Board(self.fen)
 
                             if index % 2 == 0:
-                                player2 += minmax.evaluation(board) - minmax.evaluation(new_board)
+                                player2 += minmax.evaluation2(board) - minmax.evaluation2(new_board)
                             elif index % 2 != 0:
-                                player1 += minmax.evaluation(board) - minmax.evaluation(new_board)
+                                player1 += minmax.evaluation2(board) - minmax.evaluation2(new_board)
 
                             print('player1 = ', player1)
                             print('player2 = ', player2)
                             print('book board')
-                            print('score = ', minmax.evaluation(board))
+                            print('score = ', minmax.evaluation2(board))
                             #print(board)
                             print('minmax board')
-                            print('score  = ', minmax.evaluation(new_board))
+                            print('score  = ', minmax.evaluation2(new_board))
                             #print(new_board)
-                            list_move_score = minmax.evaluation(board)
-                            min_max_score = minmax.evaluation(new_board)
+                            list_move_score = minmax.evaluation2(board)
+                            min_max_score = minmax.evaluation2(new_board)
                             min_max_move = move
 
                             #if min_max_score > list_move_score:

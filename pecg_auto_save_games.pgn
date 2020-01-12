@@ -34,3 +34,39 @@
 
 1. a3 e5 { book } 2. c4 Nf6 { book } *
 
+[Event "Human vs computer"]
+[Site "?"]
+[Date "2020.01.12"]
+[Round "?"]
+[White "Human"]
+[Black "CDrill 1800"]
+[Result "*"]
+[BlackTimeControl "180+2"]
+[WhiteTimeControl "300+10"]
+
+*
+
+[Event "Human vs computer"]
+[Site "?"]
+[Date "2020.01.12"]
+[Round "?"]
+[White "Human"]
+[Black "CDrill 1800"]
+[Result "*"]
+[BlackTimeControl "180+2"]
+[WhiteTimeControl "300+10"]
+
+1. d4 { book } 1... d5 { book } 2. c4 { book } 2... c6 { book } 3. Nc3 { book } 3... Nf6 { book } *
+
+[Event "Human vs computer"]
+[Site "?"]
+[Date "2020.01.12"]
+[Round "?"]
+[White "Human"]
+[Black "CDrill 1800"]
+[Result "*"]
+[BlackTimeControl "180+2"]
+[WhiteTimeControl "300+10"]
+
+1. c4 Nf6 { book } 2. Nf3 { book } 2... b6 { book } *
+
