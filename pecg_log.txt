@@ -4215,3 +4215,1305 @@ Traceback (most recent call last):
   File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
     from_square = SQUARE_NAMES.index(uci[0:2])
 ValueError: 'No' is not in list
+2020-01-12 14:07:48,660 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:48,819 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:48,963 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:49,085 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:49,213 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:49,342 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:49,463 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:49,595 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:49,769 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:49,895 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:50,022 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:50,142 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:50,262 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:50,389 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:50,511 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:50,632 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:50,752 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:50,872 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:50,995 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:51,115 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:51,239 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:51,358 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:51,480 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:51,599 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:51,725 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:51,847 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:51,968 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:52,090 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:52,210 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:52,336 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:52,459 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:52,579 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:52,703 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:52,817 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:52,934 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:53,045 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:53,176 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:53,297 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:53,410 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:53,525 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:53,639 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:53,755 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:53,869 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:53,979 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:54,093 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:54,205 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:54,315 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:54,427 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:54,538 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:54,647 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:54,763 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:54,875 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:54,986 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:55,107 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:55,218 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:55,330 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:55,441 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:55,556 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:55,672 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:55,786 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:55,898 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:56,009 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:56,121 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:56,232 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:56,344 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:56,457 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:56,568 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:56,680 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:56,794 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:56,912 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:57,026 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:57,144 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:57,279 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:57,390 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:57,500 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:57,611 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:57,727 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:57,854 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:57,999 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:58,146 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:58,259 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:58,369 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:58,486 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:58,609 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:58,720 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:58,843 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:58,957 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:59,068 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:59,179 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:59,295 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:59,405 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:59,531 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:59,660 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:59,778 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:07:59,889 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:00,006 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:00,116 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:00,226 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:00,341 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:00,450 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:00,572 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:00,689 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:00,814 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:00,924 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:01,034 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:01,159 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:01,271 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:01,382 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:01,501 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:01,614 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:01,731 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:01,840 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:01,977 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:02,098 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:02,213 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:02,332 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:02,460 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:02,570 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:02,694 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:02,808 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:02,925 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:03,037 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:03,149 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:03,262 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:03,378 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:03,504 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:03,627 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:03,740 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:03,851 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:03,964 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:04,078 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:04,188 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:04,299 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:04,416 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:04,535 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:04,657 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:04,785 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:04,896 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:05,021 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:05,148 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:05,274 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:05,384 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:05,508 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:05,635 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:05,746 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:05,871 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:05,998 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:06,111 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:06,222 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:06,351 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:06,474 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:06,585 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:06,700 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:06,828 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:06,944 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:07,058 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:07,169 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:07,303 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:07,414 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:07,525 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:07,655 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:07,780 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:07,892 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:08,008 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:08,124 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:08,234 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:08,345 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:08,465 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:08,586 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:08,706 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:08,819 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:08,929 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:09,051 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:09,160 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:09,270 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:09,401 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:09,513 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:09,624 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:09,734 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:09,862 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:09,972 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:10,102 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:10,214 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:10,331 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:10,442 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
+2020-01-12 14:08:10,561 :: play_game :: line: 1488 :: ERROR :: Error in parsing FEN from clipboard.
+Traceback (most recent call last):
+  File "C:/Users/Paul/Documents/GitHub/chess_ai/our chess.py", line 1461, in play_game
+    move = chess.Move.from_uci(str(move))
+  File "C:\Users\Paul\AppData\Local\Programs\Python\Python36\lib\site-packages\chess\__init__.py", line 507, in from_uci
+    from_square = SQUARE_NAMES.index(uci[0:2])
+ValueError: 'No' is not in list
