@@ -1471,12 +1471,17 @@ class EasyChessGui:
                             print('player2 = ', player2)
                             print('book board')
                             print('score = ', minmax.evaluation(board))
-                            print(board)
+                            #print(board)
                             print('minmax board')
                             print('score  = ', minmax.evaluation(new_board))
-                            print(new_board)
+                            #print(new_board)
+                            list_move_score = minmax.evaluation(board)
+                            min_max_score = minmax.evaluation(new_board)
+                            min_max_move = move
 
-                            print('difference', minmax.evaluation(board) - minmax.evaluation(new_board))
+                            #if min_max_score > list_move_score:
+                            print(min_max_move)
+                            print('difference', list_move_score - min_max_score)
 
                             # print(board)
                         except Exception:
