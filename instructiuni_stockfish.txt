@@ -1,0 +1,16 @@
+1. pip install stockfish
+2. descarcati si instalatii stockfish (https://stockfishchess.org/files/stockfish-10-win.zip)
+2. schimbati pathul din our_chess.py cu pathul unde este insatlat stockfish( alegeti 'stockfish_10_x64.exe') ca path final
+
+
+-----------------------------------------------------
+
+starea curenta:
+    * afisez scorul mutarii efectuate linie cod: 1477
+    * afisez o best_move generat de stockfish linie cod: 1496
+    * afisez scorul best_move linie cod 1498
+    * player1 = scorul total al playerului 1 alb
+    * player2 = scorul total al playerului 2 negru
+
+bugs:
+    * dupa o anumita iteratie se blocheaza intr-o stare, nu am reusit sa rezolv inca, nu la toate jocurile, la unele merge pana la final
