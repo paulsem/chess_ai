@@ -15,6 +15,7 @@ import chess.engine
 import chess.polyglot
 import logging
 import re
+import minmax_ai as minmax
 
 moves = []
 kkk = 0
@@ -22,6 +23,7 @@ game = 1
 move_list = None
 active = False
 index = 0
+
 
 log_format = '%(asctime)s :: %(funcName)s :: line: %(lineno)d :: %(' \
              'levelname)s :: %(message)s'
@@ -45,7 +47,7 @@ GUI_THEME = ['Green', 'GreenTan', 'LightGreen', 'BluePurple', 'Purple',
              'BlueMono', 'GreenMono', 'BrownBlue', 'BrightColors',
              'NeutralBlue', 'Kayak', 'SandyBeach', 'TealMono', 'Topanga',
              'Dark', 'Black', 'DarkAmber']
-IMAGE_PATH = 'Images/60'  # path to the chess pieces
+IMAGE_PATH = 'Images/80'  # path to the chess pieces
 
 BLANK = 0  # piece names
 PAWNB = 1
@@ -539,14 +541,11 @@ class EasyChessGui:
         self.engine_tc_type = 'fischer'
 
         # Default board color is brown
-        self.sq_light_color = '#F0D9B5'
-        self.sq_dark_color = '#B58863'
-
-        # Move highlight, for brown board
-        self.move_sq_light_color = '#E8E18E'
-        self.move_sq_dark_color = '#B8AF4E'
-
-        self.gui_theme = 'Reddit'
+        self.sq_light_color = '#daf1e3'
+        self.sq_dark_color = '#3a7859'
+        self.move_sq_light_color = '#bae58f'
+        self.move_sq_dark_color = '#6fbc55'
+        self.gui_theme = 'Topanga'
 
         self.is_save_time_left = False
         self.is_save_user_comment = True
@@ -1011,7 +1010,6 @@ class EasyChessGui:
             data.append({'command': fn, 'workingDirectory': wdir,
                          'name': name, 'protocol': protocol,
                          'options': option})
-
         # Save data to pecg_engines.json
         with open(self.engine_config_file, 'w') as h:
             json.dump(data, h, indent=4)
@@ -1040,13 +1038,10 @@ class EasyChessGui:
 
         best_move = None
         msg_str = str(msg)
-
         if 'bestmove ' not in msg_str:
             if 'info_all' in msg_str:
                 info_all = ' '.join(msg_str.split()[0:-1]).strip()
                 msg_line = '{}\n'.format(info_all)
-                # window.FindElement('search_info_all_k').Update(
-                #     '' if is_hide else msg_line)
         else:
             # Best move can be None because engine dies
             try:
@@ -1209,7 +1204,7 @@ class EasyChessGui:
                     self.sq_light_color
                 piece_image = images[self.psg_board[i][j]]
                 elem = window.FindElement(key=(i, j))
-                elem.Update(button_color=('white', color),
+                elem.Update(button_color=('green', color),
                             image_filename=piece_image, )
 
     def render_square(self, image, key, location):
@@ -1230,7 +1225,7 @@ class EasyChessGui:
         psg_promote_board = copy.deepcopy(white_init_promote_board) if stm \
             else copy.deepcopy(black_init_promote_board)
 
-        # Loop through board and create buttons with images        
+        # Loop through board and create buttons with images
         for i in range(1):
             for j in range(4):
                 piece_image = images[psg_promote_board[i][j]]
@@ -1387,6 +1382,10 @@ class EasyChessGui:
         # Game loop
         global index, active, kkk, moves
         var = 1
+        contor = 1
+        local_var = 2
+        player1 = 0
+        player2 = 0
         while not board.is_game_over(claim_draw=True):
             def loadgame2(path, game):
                 path = Path(path)
@@ -1413,12 +1412,21 @@ class EasyChessGui:
             if last == "1/2-1/2" and var == len(moves2) + 1:
                 BOX_TITLE = "Draw"
                 sg.Popup('Draw', title=BOX_TITLE, icon='Icon/pecg.ico')
+                window.FindElement('_White_').Update("Human")
+                window.FindElement('_Black_').Update("AI")
+                break
             if antelast == '1' and last == '0' and var == len(moves2):
                 BOX_TITLE = "Player 1 won"
                 sg.Popup('Player 1 won!', title=BOX_TITLE, icon='Icon/pecg.ico')
+                window.FindElement('_White_').Update("Human")
+                window.FindElement('_Black_').Update("AI")
+                break
             if antelast == '0' and last == '1' and var == len(moves2):
                 BOX_TITLE = "Player 2 won"
                 sg.Popup('Player 2 won!', title=BOX_TITLE, icon='Icon/pecg.ico')
+                window.FindElement('_White_').Update("Human")
+                window.FindElement('_Black_').Update("AI")
+                break
 
             moved_piece = None
             # Mode: Play, Stm: computer (first move), Allow user to change settings.
@@ -1447,14 +1455,42 @@ class EasyChessGui:
                             self.fen = move_list[index]
                             self.set_new_game()
                             board = chess.Board(self.fen)
+
+                            new_board = board.copy()
+                            move = minmax.minimaxRoot(3, new_board, True)
+                            move = chess.Move.from_uci(str(move))
+                            new_board.push(move)
+                            board = chess.Board(self.fen)
+
+                            if index % 2 == 0:
+                                player2 += minmax.evaluation(board) - minmax.evaluation(new_board)
+                            elif index % 2 != 0:
+                                player1 += minmax.evaluation(board) - minmax.evaluation(new_board)
+
+                            print('player1 = ', player1)
+                            print('player2 = ', player2)
+                            print('book board')
+                            print('score = ', minmax.evaluation(board))
+                            print(board)
+                            print('minmax board')
+                            print('score  = ', minmax.evaluation(new_board))
+                            print(new_board)
+
+                            print('difference', minmax.evaluation(board) - minmax.evaluation(new_board))
+
+                            # print(board)
                         except Exception:
                             logging.exception('Error in parsing FEN from clipboard.')
                             continue
 
                         self.fen_to_psg_board(window)
-
                         if kkk < len(moves):
-                            window.FindElement('_movelist_').Update(str(moves[kkk]) + " ", append=True)
+                            if contor % 2 == 0:
+                                window.FindElement('_movelist_').Update(str(local_var) + "." + str(moves[kkk]) + " ", append=True)
+                                local_var += 1
+                            else:
+                                window.FindElement('_movelist_').Update(str(moves[kkk]) + " ", append=True)
+                            contor += 1
                             kkk += 1
 
                         # If user is black and side to move is black
@@ -1545,7 +1581,7 @@ class EasyChessGui:
                             if button == 'Stop::right_adviser_k':
                                 search.stop()
 
-                            # Exit app while adviser is thinking                    
+                            # Exit app while adviser is thinking
                             if button == 'Exit':
                                 search.stop()
                                 logging.info('Exit app while adviser is searching')
@@ -1608,10 +1644,26 @@ class EasyChessGui:
 
                     # Mode: Play, stm: User
                     if button == 'Auto' or active:
-
+                        if game == 1:
+                            window.FindElement('_White_').Update("Garry Kasparov")
+                            window.FindElement('_Black_').Update("The World")
+                        if game == 5:
+                            window.FindElement('_White_').Update("Magnus Carlsen")
+                            window.FindElement('_Black_').Update("Fabiano Caruana")
+                        if game == 6:
+                            window.FindElement('_White_').Update("Fabiano Caruana")
+                            window.FindElement('_Black_').Update("Magnus Carlsen")
+                        if game == 7:
+                            window.FindElement('_White_').Update("Magnus Carlsen")
+                            window.FindElement('_Black_').Update("Sergey Karjakin")
+                        if game == 8:
+                            window.FindElement('_White_').Update("Sergey Karjakin")
+                            window.FindElement('_Black_').Update("Magnus Carlsen")
+                        if game == 9:
+                            window.FindElement('_White_').Update("Vladimir Kramnik")
+                            window.FindElement('_Black_').Update("Peter Svidler")
                         window.Element('w_elapse_k').Update('   -')
                         window.Element('b_elapse_k').Update('   -')
-
                         active = True
                         try:
                             self.fen = move_list[index]
@@ -1622,7 +1674,7 @@ class EasyChessGui:
                             continue
 
                         self.fen_to_psg_board(window)
-
+                        window.FindElement('_movelist_').Update("1.", append=True)
                         window.FindElement('_movelist_').Update(str(moves[kkk]) + " ", append=True)
                         kkk += 1
 
@@ -1632,7 +1684,7 @@ class EasyChessGui:
                         window.FindElement('_gamestatus_').Update(
                             'Mode     Play, side: {}'.format(
                                 'white' if board.turn else 'black'))
-
+                        local = 1
                         self.game.headers['FEN'] = self.fen
                         time.sleep(0.3)
                         index += 1
@@ -1810,7 +1862,6 @@ class EasyChessGui:
 
                     while True:
                         button, value = window.Read(timeout=100)
-
                         # Update elapse box in m:s format
                         elapse_str = self.get_time_mm_ss_ms(engine_timer.elapse)
                         k = 'b_elapse_k'
@@ -1859,7 +1910,7 @@ class EasyChessGui:
                             is_hide_book2 = True
                             window.Element('polyglot_book2_k').Update('')
 
-                        # Exit app while engine is thinking                    
+                        # Exit app while engine is thinking
                         if button == 'Exit':
                             search.stop()
                             logging.info('Exit app while engine is searching')
@@ -2079,7 +2130,7 @@ class EasyChessGui:
         board_layout = []
 
         if is_user_white:
-            # Save the board with black at the top        
+            # Save the board with black at the top
             start = 0
             end = 8
             step = 1
@@ -2109,13 +2160,13 @@ class EasyChessGui:
         board_layout = self.create_board(is_user_white)
         alg_fundation_letters = [[sg.Text('abcdefgh', size=(1, 10), font=('Consolas', 20), key='_litera_') ]]
         alg_fundation_numbers = [[sg.Text('1', size=(0, 4), font=('Consolas', 10), key='_litera2_')],
-                                 [sg.Text('2', size=(0, 4), font=('Consolas', 10), key='_litera2_')],
-                                 [sg.Text('3', size=(0, 3), font=('Consolas', 10), key='_litera2_')],
-                                 [sg.Text('4', size=(0, 3), font=('Consolas', 10), key='_litera2_')],
-                                 [sg.Text('5', size=(0, 3), font=('Consolas', 10), key='_litera2_')],
-                                 [sg.Text('6', size=(0, 4), font=('Consolas', 10), key='_litera2_')],
-                                 [sg.Text('7', size=(0, 5), font=('Consolas', 10), key='_litera2_')],
-                                 [sg.Text('8', size=(0, 3), font=('Consolas', 10), key='_litera2_')]]
+                                 [sg.Text('2', size=(0, 4), font=('Consolas', 10), key='_litera3_')],
+                                 [sg.Text('3', size=(0, 3), font=('Consolas', 10), key='_litera4_')],
+                                 [sg.Text('4', size=(0, 3), font=('Consolas', 10), key='_litera5_')],
+                                 [sg.Text('5', size=(0, 3), font=('Consolas', 10), key='_litera6_')],
+                                 [sg.Text('6', size=(0, 4), font=('Consolas', 10), key='_litera7_')],
+                                 [sg.Text('7', size=(0, 5), font=('Consolas', 10), key='_litera8_')],
+                                 [sg.Text('8', size=(0, 3), font=('Consolas', 10), key='_litera9_')]]
         board_controls = [
             [sg.Text('Mode       Start playing!', size=(36, 1), font=('Consolas', 10), key='_gamestatus_')],
             [sg.Text('White', size=(7, 1), font=('Consolas', 10)),
@@ -2173,14 +2224,14 @@ class EasyChessGui:
 
         # If engine config file (pecg_engines.json) is missing, then create it
         self.check_engine_config_file()
-        self.engine_id_name_list = self.get_engine_id_name_list()
 
+        self.engine_id_name_list = self.get_engine_id_name_list()
         # Define default opponent engine, user can change this later.
         engine_id_name = self.opp_id_name = self.engine_id_name_list[0]
         self.opp_file, self.opp_path_and_file = self.get_engine_file(
             engine_id_name)
 
-        # Define default adviser engine, user can change this later.
+        #Define default adviser engine, user can change this later.
         self.adviser_id_name = self.engine_id_name_list[1] \
             if len(self.engine_id_name_list) >= 2 \
             else self.engine_id_name_list[0]
@@ -3164,13 +3215,12 @@ def main():
     is_use_gui_book = True
     is_random_book = True  # If false then use best book move
     max_book_ply = 8
-    theme = 'Reddit'
+    theme = 'Topanga'
 
     pecg = EasyChessGui(theme, engine_config_file, user_config_file,
                         pecg_book, book_from_computer_games,
                         book_from_human_games, is_use_gui_book, is_random_book,
                         max_book_ply)
-
     pecg.main_loop()
 
 
