@@ -1,5 +1,4 @@
 import chess
-import sunfish
 import math
 import random
 import sys
