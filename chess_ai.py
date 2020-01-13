@@ -20,7 +20,7 @@ import chess.polyglot
 import logging
 import re
 
-stockfish = Stockfish('C:/chess/stockfish-10-win/Windows/stockfish_10_x64_bmi2.exe')
+stockfish = Stockfish('C:/chess/stockfish-10-win/Windows/stockfish_10_x64.exe')
 
 moves = []
 kkk = 0
@@ -1203,26 +1203,6 @@ class EasyChessGui:
 
                     if button == 'Auto' or active:
                         try:
-                            engine = chess.engine.SimpleEngine.popen_uci(
-                                'C:/chess/stockfish-10-win/Windows/stockfish_10_x64.exe')
-                            if board.turn:
-                                print('black to move')
-                            else:
-                                print('white to move')
-                            maxeval = -9999
-                            max_pos = moves[index]
-                            for el in board.legal_moves:
-                                info = engine.analyse(board, chess.engine.Limit(time=0.1), root_moves=[el])
-                                t = str(info["score"])
-                                if t.startswith('#'):
-                                    t = str(t).replace('#', '')
-                                if board.san(el) == moves[index]:
-                                    aux = round(int(t)/100.,2)
-                                if round(int(t)/100.,2) > maxeval:
-                                    maxeval = round(int(t)/100.,2)
-                                    max_pos = board.san(el)
-
-                            engine.quit()
                             self.fen = move_list[index]
                             self.set_new_game()
                             board = chess.Board(self.fen)
@@ -1230,10 +1210,6 @@ class EasyChessGui:
                             continue
 
                         self.fen_to_psg_board(window)
-                        print('scorul maxim = ',maxeval)
-                        print('pozitia maxima = ',max_pos)
-                        print('scor book = ', aux)
-
 
                         move = better_move()
                         if move[0]:
@@ -1241,8 +1217,7 @@ class EasyChessGui:
                                 1: str(kkk // 2 + 1) + ". There is a way better move on:\t" + str(move[1]) + "\n",
                                 2: str(kkk // 2 + 1) + ". Moving to:\t" + str(
                                     move[1]) + " would have increased it's winning chance\n",
-                                3: str(kkk // 2 + 1) + ". A way better move would have been on:\t" + str(
-                                    move[1]) + "\n"}
+                                3: str(kkk // 2 + 1) + ". A way better move would have been on:\t" + str(move[1]) + "\n"}
 
                             dct_neg = {
                                 1: str(kkk // 2 + 1) + ". This was the best possible move!\n",
@@ -1385,8 +1360,7 @@ class EasyChessGui:
                                 1: str(kkk // 2 + 1) + ". There is a way better move on:\t" + str(move[1]) + "\n",
                                 2: str(kkk // 2 + 1) + ". Moving to:\t" + str(
                                     move[1]) + " would have increased it's winning chance\n",
-                                3: str(kkk // 2 + 1) + ". A way better move would have been on:\t" + str(
-                                    move[1]) + "\n"}
+                                3: str(kkk // 2 + 1) + ". A way better move would have been on:\t" + str(move[1]) + "\n"}
 
                             dct_neg = {
                                 1: str(kkk // 2 + 1) + ". This was the best possible move!\n",
