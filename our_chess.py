@@ -20,7 +20,7 @@ import chess.polyglot
 import logging
 import re
 
-stockfish = Stockfish('C:/chess/stockfish-10-win/Windows/stockfish_10_x64_bmi2.exe')
+stockfish = Stockfish('C:/chess/stockfish-10-win/Windows/stockfish_10_x64.exe')
 
 moves = []
 kkk = 0
