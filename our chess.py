@@ -20,8 +20,6 @@ import chess.polyglot
 import logging
 import re
 
-stockfish = Stockfish('stockfish-10-win/Windows/stockfish_10_x64_bmi2.exe')
-
 moves = []
 kkk = 0
 game = 1
@@ -1203,8 +1201,6 @@ class EasyChessGui:
 
                     if button == 'Auto' or active:
                         try:
-                            engine = chess.engine.SimpleEngine.popen_uci(
-                                'stockfish-10-win/Windows/stockfish_10_x64.exe')
                             if board.turn:
                                 print('black to move')
                             else:
@@ -1221,8 +1217,6 @@ class EasyChessGui:
                                 if round(int(t)/100.,2) > maxeval:
                                     maxeval = round(int(t)/100.,2)
                                     max_pos = board.san(el)
-
-                            engine.quit()
                             self.fen = move_list[index]
                             self.set_new_game()
                             board = chess.Board(self.fen)
@@ -1952,6 +1946,8 @@ class EasyChessGui:
 
 
 def main():
+    global engine
+    engine = chess.engine.SimpleEngine.popen_uci('stockfish_10_x64.exe')
     global move_list, active, index
 
     active = False
@@ -1974,6 +1970,7 @@ def main():
                         book_from_human_games, is_use_gui_book, is_random_book,
                         max_book_ply)
     pecg.main_loop()
+    engine.quit()
 
 
 if __name__ == "__main__":
