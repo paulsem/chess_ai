@@ -588,3 +588,185 @@
 
 *
 
+[Event "Human vs AI"]
+[Site "?"]
+[Date "2020.01.14"]
+[Round "?"]
+[White "Human"]
+[Black "CDrill 1800"]
+[Result "*"]
+[BlackTimeControl "180+2"]
+[FEN "2kr2r1/p7/1ppq3p/2p1b2P/4Pp2/1P1P3P/P1PQ2R1/3N1RK1 w - - 2 27"]
+[WhiteTimeControl "300+10"]
+
+*
+
+[Event "Human vs AI"]
+[Site "?"]
+[Date "2020.01.14"]
+[Round "?"]
+[White "Human"]
+[Black "CDrill 1800"]
+[Result "*"]
+[BlackTimeControl "180+2"]
+[FEN "6k1/3n2p1/3Npn1p/4p3/1R2P3/5N1P/2r2PP1/6K1 b - - 5 33"]
+[WhiteTimeControl "300+10"]
+
+*
+
+[Event "Human vs AI"]
+[Site "?"]
+[Date "2020.01.14"]
+[Round "?"]
+[White "Human"]
+[Black "CDrill 1800"]
+[Result "*"]
+[BlackTimeControl "180+2"]
+[FEN "r5k1/4qpb1/bn2p2p/pNp1P1pP/3R4/8/PP2QPPN/1B2R1K1 b - - 0 23"]
+[WhiteTimeControl "300+10"]
+
+*
+
+[Event "Human vs AI"]
+[Site "?"]
+[Date "2020.01.14"]
+[Round "?"]
+[White "Human"]
+[Black "CDrill 1800"]
+[Result "*"]
+[BlackTimeControl "180+2"]
+[FEN "8/8/1p1kpp2/p1b2p1p/P2N1P2/1P1KP1PP/8/8 w - - 12 43"]
+[WhiteTimeControl "300+10"]
+
+*
+
+[Event "Human vs AI"]
+[Site "?"]
+[Date "2020.01.14"]
+[Round "?"]
+[White "Human"]
+[Black "CDrill 1800"]
+[Result "0-1"]
+[BlackTimeControl "180+2"]
+[FEN "rn2k3/pp6/5np1/1pb1p3/4p1br/5q2/PPP4K/7R w q - 0 19"]
+[WhiteTimeControl "300+10"]
+
+0-1
+
+[Event "Human vs AI"]
+[Site "?"]
+[Date "2020.01.14"]
+[Round "?"]
+[White "Human"]
+[Black "CDrill 1800"]
+[Result "*"]
+[BlackTimeControl "180+2"]
+[FEN "r2qkb1r/pp2pppp/5n2/8/P2NpP1P/1P1P2P1/2P5/RN1QKB1b b Qkq - 0 11"]
+[WhiteTimeControl "300+10"]
+
+*
+
+[Event "Human vs AI"]
+[Site "?"]
+[Date "2020.01.14"]
+[Round "?"]
+[White "Human"]
+[Black "CDrill 1800"]
+[Result "0-1"]
+[BlackTimeControl "180+2"]
+[FEN "rn2k3/pp6/5np1/1pb1p3/4p1br/5q2/PPP4K/7R w q - 0 19"]
+[WhiteTimeControl "300+10"]
+
+0-1
+
+[Event "Human vs AI"]
+[Site "?"]
+[Date "2020.01.14"]
+[Round "?"]
+[White "Human"]
+[Black "CDrill 1800"]
+[Result "*"]
+[BlackTimeControl "180+2"]
+[FEN "r2qkb1r/pp2pppp/5n2/8/P2ppPb1/1P1P2P1/2P1N2P/RN1QKB1R b KQkq a3 0 9"]
+[WhiteTimeControl "300+10"]
+
+*
+
+[Event "Human vs AI"]
+[Site "?"]
+[Date "2020.01.14"]
+[Round "?"]
+[White "Human"]
+[Black "CDrill 1800"]
+[Result "*"]
+[BlackTimeControl "180+2"]
+[FEN "rn2kb1r/pp2p3/5np1/1p6/4p1bP/8/PPPq4/R4KNR w kq - 0 14"]
+[WhiteTimeControl "300+10"]
+
+*
+
+[Event "Human vs AI"]
+[Site "?"]
+[Date "2020.01.14"]
+[Round "?"]
+[White "Human"]
+[Black "CDrill 1800"]
+[Result "0-1"]
+[BlackTimeControl "180+2"]
+[FEN "rn2k3/pp6/5np1/1pb1p3/4p1br/5q2/PPP4K/7R w q - 0 19"]
+[WhiteTimeControl "300+10"]
+
+0-1
+
+[Event "Human vs AI"]
+[Site "?"]
+[Date "2020.01.14"]
+[Round "?"]
+[White "Human"]
+[Black "CDrill 1800"]
+[Result "*"]
+[BlackTimeControl "180+2"]
+[FEN "8/8/1p1kpp2/p1b2p1p/P2N1P2/1P1KP1PP/8/8 w - - 12 43"]
+[WhiteTimeControl "300+10"]
+
+*
+
+[Event "Human vs AI"]
+[Site "?"]
+[Date "2020.01.14"]
+[Round "?"]
+[White "Human"]
+[Black "CDrill 1800"]
+[Result "*"]
+[BlackTimeControl "180+2"]
+[FEN "rnbqkbnr/ppp1pppp/8/8/4pP2/8/PPPP2PP/RNBQKBNR w KQkq - 0 3"]
+[WhiteTimeControl "300+10"]
+
+*
+
+[Event "Human vs AI"]
+[Site "?"]
+[Date "2020.01.14"]
+[Round "?"]
+[White "Human"]
+[Black "CDrill 1800"]
+[Result "*"]
+[BlackTimeControl "180+2"]
+[FEN "rn1qkbnr/pp2p3/5Bp1/1p3b2/3Pp3/8/PPP3PP/RN2K1NR b KQkq - 0 9"]
+[WhiteTimeControl "300+10"]
+
+*
+
+[Event "Human vs AI"]
+[Site "?"]
+[Date "2020.01.14"]
+[Round "?"]
+[White "Human"]
+[Black "CDrill 1800"]
+[Result "0-1"]
+[BlackTimeControl "180+2"]
+[FEN "rn2k3/pp6/5np1/1pb1p3/4p1br/5q2/PPP4K/7R w q - 0 19"]
+[WhiteTimeControl "300+10"]
+
+0-1
+

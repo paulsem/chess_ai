@@ -1203,19 +1203,25 @@ class EasyChessGui:
                         try:
                             if board.turn:
                                 print('black to move')
+
                             else:
                                 print('white to move')
                             maxeval = -9999
                             max_pos = moves[index]
                             for el in board.legal_moves:
                                 info = engine.analyse(board, chess.engine.Limit(time=0.1), root_moves=[el])
-                                t = str(info["score"])
+                                # info = engine.analyse(board, chess.engine.Limit(depth=7))
+                                print("Move: " + str(el) + "\n")
+                                print("Score white pov: " + str(info["score"].white()) + "\n")
+                                print("Score black pov: " + str(info["score"].black()) + "\n")
+                                t = str(info["score"].white()) if board.turn else str(info["score"].black())
                                 if t.startswith('#'):
                                     t = str(t).replace('#', '')
+                                t = int(t)
                                 if board.san(el) == moves[index]:
-                                    aux = round(int(t)/100.,2)
-                                if round(int(t)/100.,2) > maxeval:
-                                    maxeval = round(int(t)/100.,2)
+                                    aux = round(int(t) / 100., 2)
+                                if round(int(t) / 100., 2) > maxeval:
+                                    maxeval = round(int(t) / 100., 2)
                                     max_pos = board.san(el)
                             self.fen = move_list[index]
                             self.set_new_game()
@@ -1224,28 +1230,53 @@ class EasyChessGui:
                             continue
                         absolut = abs(maxeval - aux)
                         self.fen_to_psg_board(window)
-                        print('scorul maxim = ',maxeval)
-                        print('pozitia maxima = ',max_pos)
+                        print('scorul maxim = ', maxeval)
+                        print('pozitia maxima = ', max_pos)
                         print('scor book = ', aux)
-                        print("absolut= ", absolut )
-                        print("*"*30)
-                        dct_neg = {
-                            1: str(kkk // 2 + 1) + ". There is a way better move on:\t" + str(max_pos) + "\n",
-                            2: str(kkk // 2 + 1) + ". Moving to\t" + str(
-                                max_pos) + " would have increased it's winning chance\n",
-                            3: str(kkk // 2 + 1) + ". A way better move would have been on \t" + str(
-                                max_pos) + "\n"}
+                        print("absolut= ", absolut)
+                        print("*" * 30)
+                        jucator = "White" if board.turn else "Black"
+                        if absolut > 0.22:
+                            miscare_din_lista = str(moves[index])
+                            miscare_cu_efect_maxim = str(max_pos)
+                            string_to_show = ""
+                            piesa_mutata = ""
+                            if miscare_din_lista[0] == 'K' or miscare_din_lista[0] == 'Q' or miscare_din_lista[0] == 'B' or miscare_din_lista[0] == 'R' or miscare_din_lista[0] == 'N':
+                                piesa_mutata = miscare_din_lista[0]
+                            else:
+                                piesa_mutata = "pawn"
 
-                        dct_pos = {
-                            1: str(kkk // 2 + 1) + ". This was the best possible move!\n",
-                            2: str(kkk // 2 + 1) + ". After that move he surely will win!\n",
-                            3: str(kkk // 2 + 1) + ". Amazing move!\n"}
+                            piesa_mutata_max = ""
+                            if miscare_cu_efect_maxim[0] == 'K' or miscare_cu_efect_maxim[0] == 'Q' or miscare_cu_efect_maxim[0] == 'B' or miscare_cu_efect_maxim[0] == 'R' or miscare_cu_efect_maxim[0] == 'N':
+                                piesa_mutata_max = miscare_cu_efect_maxim[0]
+                            else:
+                                piesa_mutata_max = "pawn"
 
-                        nr = random.randint(1, 3)
-                        if (maxeval == aux):
+                            if 'x' in miscare_din_lista:
+                                string_to_show = str(kkk//2+1)+". The player " + jucator + " get into a favorable position by capturing the piece at position " + miscare_din_lista.split('x')[1]
+                                string_to_show = string_to_show + " although a better move would be the piece " + piesa_mutata_max + " at position " + miscare_cu_efect_maxim[-2] + miscare_cu_efect_maxim[-1] + "\n"
+                            elif "0-0" in miscare_din_lista or "O-O" in miscare_din_lista or "0-0-0" in miscare_din_lista or "O-O-O" in miscare_din_lista:
+                                string_to_show = str(kkk//2+1) + ". The player " + jucator + " does the castle, but a better move would be"
+                                string_to_show = string_to_show + " the piece " + piesa_mutata_max + " in position " + miscare_cu_efect_maxim[-2] + miscare_cu_efect_maxim[-1] + "\n"
+                            else:
+                                # dct_neg = {
+                                #     1: str(kkk // 2 + 1) + ". There is a way better move on:\t" + str(max_pos) + "\n",
+                                #     2: str(kkk // 2 + 1) + ". Moving to\t" + str(
+                                #         max_pos) + " would have increased it's winning chance\n",
+                                #     3: str(kkk // 2 + 1) + ". A way better move would have been on \t" + str(
+                                #         max_pos) + "\n"}
+                                # nr = random.randint(1, 3)
+                                # string_to_show = dct_neg[nr]
+                                string_to_show = str(kkk//2+1)+". The player " + jucator + " could have made a better move by moving " + piesa_mutata_max + " in position " + miscare_cu_efect_maxim[-2] + miscare_cu_efect_maxim[-1] + "\n"
+                            window.FindElement("comment_k").Update(string_to_show, append=True)
+                        else:
+                            dct_pos = {
+                                1: str(kkk // 2 + 1) + ". This was the best possible move!\n",
+                                2: str(kkk // 2 + 1) + ". After that move he surely will win!\n",
+                                3: str(kkk // 2 + 1) + ". Amazing move!\n"}
+                            nr = random.randint(1, 3)
                             window.FindElement("comment_k").Update(dct_pos[nr], append=True)
-                        elif absolut >= 0.2:
-                            window.FindElement("comment_k").Update(dct_neg[nr], append=True)
+
 
                         if kkk < len(moves):
                             if contor % 2 == 0:
