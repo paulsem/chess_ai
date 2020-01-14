@@ -639,3 +639,16 @@
 
 0-1
 
+[Event "Human vs AI"]
+[Site "?"]
+[Date "2020.01.13"]
+[Round "?"]
+[White "Human"]
+[Black "CDrill 1800"]
+[Result "0-1"]
+[BlackTimeControl "180+2"]
+[FEN "r1b1k1nr/pppp1ppp/2n5/4p3/2B1P1Pb/5P2/PPPP1q2/RNBQK3 w Qkq - 0 9"]
+[WhiteTimeControl "300+10"]
+
+0-1
+
