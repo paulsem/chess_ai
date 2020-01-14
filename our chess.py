@@ -20,7 +20,7 @@ import chess.polyglot
 import logging
 import re
 
-stockfish = Stockfish('C:/chess/stockfish-10-win/Windows/stockfish_10_x64.exe')
+stockfish = Stockfish('stockfish-10-win/Windows/stockfish_10_x64_bmi2.exe')
 
 moves = []
 kkk = 0
@@ -1204,12 +1204,11 @@ class EasyChessGui:
                     if button == 'Auto' or active:
                         try:
                             engine = chess.engine.SimpleEngine.popen_uci(
-                                'C:/chess/stockfish-10-win/Windows/stockfish_10_x64.exe')
+                                'stockfish-10-win/Windows/stockfish_10_x64.exe')
                             if board.turn:
                                 print('black to move')
                             else:
                                 print('white to move')
-                            move_book = moves[index]
                             maxeval = -9999
                             max_pos = moves[index]
                             for el in board.legal_moves:
@@ -1231,11 +1230,9 @@ class EasyChessGui:
                             continue
                         absolut = abs(maxeval - aux)
                         self.fen_to_psg_board(window)
-                        print('numarul mutarii = ', index)
                         print('scorul maxim = ',maxeval)
                         print('pozitia maxima = ',max_pos)
                         print('scor book = ', aux)
-                        print('book position = ', move_book)
                         print("absolut= ", absolut )
                         print("*"*30)
                         dct_neg = {
