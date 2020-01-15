@@ -1114,7 +1114,7 @@ class EasyChessGui:
         # Game loop
         global index, active, kkk, moves
         var = 1
-        contor = 1
+        contor = 0
         local_var = 2
 
         while not board.is_game_over(claim_draw=True):
@@ -1211,9 +1211,9 @@ class EasyChessGui:
                             for el in board.legal_moves:
                                 info = engine.analyse(board, chess.engine.Limit(time=0.1), root_moves=[el])
                                 # info = engine.analyse(board, chess.engine.Limit(depth=7))
-                                print("Move: " + str(el) + "\n")
-                                print("Score white pov: " + str(info["score"].white()) + "\n")
-                                print("Score black pov: " + str(info["score"].black()) + "\n")
+                                # print("Move: " + str(el) + "\n")
+                                # print("Score white pov: " + str(info["score"].white()) + "\n")
+                                # print("Score black pov: " + str(info["score"].black()) + "\n")
                                 t = str(info["score"].white()) if board.turn else str(info["score"].black())
                                 if t.startswith('#'):
                                     t = str(t).replace('#', '')
@@ -1229,14 +1229,15 @@ class EasyChessGui:
                         except Exception:
                             continue
                         absolut = abs(maxeval - aux)
+
                         self.fen_to_psg_board(window)
                         print('scorul maxim = ', maxeval)
                         print('pozitia maxima = ', max_pos)
                         print('scor book = ', aux)
                         print("absolut= ", absolut)
                         print("*" * 30)
-                        jucator = "White" if board.turn else "Black"
-                        if absolut > 0.22:
+                        jucator = "Black" if board.turn else "White"
+                        if absolut > 0.5:
                             miscare_din_lista = str(moves[index])
                             miscare_cu_efect_maxim = str(max_pos)
                             string_to_show = ""
@@ -1269,7 +1270,7 @@ class EasyChessGui:
                                 # string_to_show = dct_neg[nr]
                                 string_to_show = str(kkk//2+1)+". The player " + jucator + " could have made a better move by moving " + piesa_mutata_max + " in position " + miscare_cu_efect_maxim[-2] + miscare_cu_efect_maxim[-1] + "\n"
                             window.FindElement("comment_k").Update(string_to_show, append=True)
-                        else:
+                        elif absolut == 0:
                             dct_pos = {
                                 1: str(kkk // 2 + 1) + ". This was the best possible move!\n",
                                 2: str(kkk // 2 + 1) + ". After that move he surely will win!\n",
@@ -1279,9 +1280,9 @@ class EasyChessGui:
 
 
                         if kkk < len(moves):
-                            if contor % 2 == 0:
+                            if contor % 2 == 0 and contor != 0:
                                 window.FindElement('_movelist_').Update(str(local_var) + "." + str(moves[kkk]) + " ",
-                                                                        append=True)
+                                                           append=True)
                                 local_var += 1
                             else:
                                 window.FindElement('_movelist_').Update(str(moves[kkk]) + " ", append=True)
@@ -1396,7 +1397,6 @@ class EasyChessGui:
 
                         self.fen_to_psg_board(window)
                         window.FindElement('_movelist_').Update("1.", append=True)
-                        window.FindElement('_movelist_').Update(str(moves[kkk]) + " ", append=True)
 
                         # dct_pos = {
                         #     1: str(kkk // 2 + 1) + ". There is a way better move on:\t" + str(max_pos) + "\n",
@@ -1427,6 +1427,14 @@ class EasyChessGui:
                         self.game.headers['FEN'] = self.fen
                         time.sleep(0.3)
                         index += 1
+                        if contor % 2 == 0 and contor != 0:
+                            window.FindElement('_movelist_').Update(str(local_var) + "." + str(moves[kkk]) + " ",
+                                                                    append=True)
+                            local_var += 1
+                        else:
+                            window.FindElement('_movelist_').Update(str(moves[kkk]) + " ", append=True)
+                        contor += 1
+                        kkk += 1
                         if index >= len(move_list):
                             active = False
                             index = 0
@@ -1434,6 +1442,7 @@ class EasyChessGui:
                                 window.FindElement('_movelist_').Update(str(moves[kkk]) + " ", append=True)
                             kkk = 0
                         break
+
 
                     # Mode: Play, stm: User, user starts moving
                     if type(button) is tuple:
@@ -1774,14 +1783,14 @@ class EasyChessGui:
         # Define board
         board_layout = self.create_board(is_user_white)
         alg_fundation_numbers = [[sg.Text(' ', size=(0, 1), font=('Consolas', 7))],
-                                 [sg.Text('1', size=(0, 3), font=('Consolas', 11))],
-                                 [sg.Text('2', size=(0, 3), font=('Consolas', 11))],
-                                 [sg.Text('3', size=(0, 3), font=('Consolas', 11))],
-                                 [sg.Text('4', size=(0, 2), font=('Consolas', 11))],
-                                 [sg.Text('5', size=(0, 3), font=('Consolas', 11))],
-                                 [sg.Text('6', size=(0, 2), font=('Consolas', 11))],
+                                 [sg.Text('8', size=(0, 3), font=('Consolas', 11))],
                                  [sg.Text('7', size=(0, 3), font=('Consolas', 11))],
-                                 [sg.Text('8', size=(0, 3), font=('Consolas', 11))]]
+                                 [sg.Text('6', size=(0, 3), font=('Consolas', 11))],
+                                 [sg.Text('5', size=(0, 2), font=('Consolas', 11))],
+                                 [sg.Text('4', size=(0, 3), font=('Consolas', 11))],
+                                 [sg.Text('3', size=(0, 2), font=('Consolas', 11))],
+                                 [sg.Text('2', size=(0, 3), font=('Consolas', 11))],
+                                 [sg.Text('1', size=(0, 3), font=('Consolas', 11))]]
         board_controls = [
             [sg.Text('Mode       Start playing!', size=(36, 1), font=('Consolas', 10), key='_gamestatus_')],
             [sg.Text('White', size=(7, 1), font=('Consolas', 10)),
